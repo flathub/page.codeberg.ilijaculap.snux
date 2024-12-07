@@ -17,11 +17,11 @@ modules:
   - name: snux
     buildsystem: simple
     build-commands:
-      - install -Dm644 snux_v3.pck /app/bin/godot-runner.pck
+      - install -Dm644 snux_v3.0.1.pck /app/bin/godot-runner.pck
       - install -Dm644 icon.png /app/share/icons/hicolor/512x512/apps/page.codeberg.ilijaculap.snux.png
       - install -Dm644 snux.desktop /app/share/applications/page.codeberg.ilijaculap.snux.desktop
       - install -Dm644 metainfo.xml /app/share/metainfo/page.codeberg.ilijaculap.snux.metainfo.xml
     sources:
       - type: archive
-        url: https://codeberg.org/ilijaculap/snux/raw/branch/master/export/snux_v3.tar.xz
-        sha256: 87f58f87e0002de731c64b17545429092bb324f1ad178eafa9b83382a1defd72
+        url: https://codeberg.org/ilijaculap/snux/raw/branch/master/export/snux_v3.0.1.tar.xz
+        sha256: e319deda3207d7aa7bdc36307a0ed0bc729cc6bdd7577f990d8b9c4bfc816752
