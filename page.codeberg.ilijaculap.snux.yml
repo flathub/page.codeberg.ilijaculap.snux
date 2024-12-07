@@ -20,7 +20,7 @@ modules:
       - install -Dm644 snux_v3.pck /app/bin/godot-runner.pck
       - install -Dm644 icon.png /app/share/icons/hicolor/512x512/apps/page.codeberg.ilijaculap.snux.png
       - install -Dm644 snux.desktop /app/share/applications/page.codeberg.ilijaculap.snux.desktop
-      - install -Dm644 metainfo.xml /app/share/metainfo/page.codeberg.ilijaculap.snux.xml.metainfo
+      - install -Dm644 metainfo.xml /app/share/metainfo/page.codeberg.ilijaculap.snux.metainfo.xml
     sources:
       - type: archive
         url: https://codeberg.org/ilijaculap/snux/raw/branch/master/export/snux_v3.tar.xz
