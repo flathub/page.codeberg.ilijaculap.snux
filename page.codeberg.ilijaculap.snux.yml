@@ -23,5 +23,5 @@ modules:
       - install -Dm644 metainfo.xml /app/share/metainfo/page.codeberg.ilijaculap.snux.metainfo.xml
     sources:
       - type: archive
-        url: https://codeberg.org/ilijaculap/snux/raw/branch/master/export/snux_v3.0.2_fp1.tar.xz
-        sha256: a48447402c22a268d92a349c5ac05b82c7fadec6d5a81b499e831f357f4dad8e
+        url: https://codeberg.org/ilijaculap/snux/raw/branch/master/export/snux_v3.0.2_fp2.tar.xz
+        sha256: b4c8b6feeb7fc1b6675bfad9c92dc1c8d6d56f7ece81b25fb70412ffb71d76a2
