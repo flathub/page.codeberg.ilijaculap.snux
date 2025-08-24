@@ -1,6 +1,6 @@
 app-id: page.codeberg.ilijaculap.snux
 base: org.godotengine.godot.BaseApp
-base-version: '4.3-24.08'
+base-version: '4.4'
 runtime: org.freedesktop.Platform
 runtime-version: '24.08'
 sdk: org.freedesktop.Sdk
@@ -17,11 +17,11 @@ modules:
   - name: snux
     buildsystem: simple
     build-commands:
-      - install -Dm644 snux_v3.0.2.pck /app/bin/godot-runner.pck
+      - install -Dm644 snux_v3.1.0.pck /app/bin/godot-runner.pck
       - install -Dm644 icon.png /app/share/icons/hicolor/512x512/apps/page.codeberg.ilijaculap.snux.png
       - install -Dm644 snux.desktop /app/share/applications/page.codeberg.ilijaculap.snux.desktop
       - install -Dm644 metainfo.xml /app/share/metainfo/page.codeberg.ilijaculap.snux.metainfo.xml
     sources:
       - type: archive
-        url: https://codeberg.org/ilijaculap/snux/raw/branch/master/export/snux_v3.0.2_fp2.tar.xz
-        sha256: b4c8b6feeb7fc1b6675bfad9c92dc1c8d6d56f7ece81b25fb70412ffb71d76a2
+        url: https://codeberg.org/ilijaculap/snux/raw/branch/master/export/snux_v3.1.0_fp1.tar.xz
+        sha256: 737b645c79d8c8c919bf7f665e6db3e01c485309a618ee1c913495b3e9e0421d
