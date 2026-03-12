@@ -24,4 +24,4 @@ modules:
     sources:
       - type: archive
         url: https://codeberg.org/ilijaculap/snux/raw/branch/master/export/snux_v3.2.2_fp2.tar.xz
-        sha256: 70418a206f2b47a931a9109bd6d89a7e1d281b319380d37c1cb09f626bf8a57a
+        sha256: 02a5ff85a2e23e4021f077adf5bb000189ee8612479a0b089cc548a66917e535
