@@ -1,8 +1,8 @@
 app-id: page.codeberg.ilijaculap.snux
 base: org.godotengine.godot.BaseApp
-base-version: '4.4'
+base-version: '4.6'
 runtime: org.freedesktop.Platform
-runtime-version: '24.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 command: godot-runner
 
@@ -23,5 +23,5 @@ modules:
       - install -Dm644 metainfo.xml /app/share/metainfo/page.codeberg.ilijaculap.snux.metainfo.xml
     sources:
       - type: archive
-        url: https://codeberg.org/ilijaculap/snux/raw/branch/master/export/snux_v3.2.2_fp1.tar.xz
-        sha256: febccc398f9614abc5e2b424e8aaaa7638816d0511f5499e1e474201d27fca3d
+        url: https://codeberg.org/ilijaculap/snux/raw/branch/master/export/snux_v3.2.2_fp2.tar.xz
+        sha256: 02a5ff85a2e23e4021f077adf5bb000189ee8612479a0b089cc548a66917e535
